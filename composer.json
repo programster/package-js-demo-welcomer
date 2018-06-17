@@ -1,0 +1,24 @@
+{
+    "name": "programster/js-demo-welcomer",
+    "type": "",
+    "description": "Example javascript package",
+    "keywords": ["demo", "js", "hello-world"],
+    "homepage": "https://blog.programster.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stuart Page",
+            "email": "sdpagent@gmail.com",
+            "homepage": "https://blog.programster.org",
+            "role": "Developer"
+        }
+    ],
+    "scripts": {
+        "post-install-cmd": [
+            "rm public_html/js-demo-welcomer && ln -s vendor/programster/js-demo-welcomer public_html/js-demo-welcomer"
+        ],
+        "post-update-cmd": [
+            "rm public_html/js-demo-welcomer && ln -s vendor/programster/js-demo-welcomer public_html/js-demo-welcomer"
+        ]
+    }
+}
