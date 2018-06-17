@@ -2,7 +2,7 @@ This is a demonstration package of how one can use composer for building and
 distributing Javascript packages. The [implementation demo is here](https://github.com/programster/js-demo-welcomer-implementation).
 
 ## Installation / Usage
-In order to use these packages, one will need to use composer require/install
+In order to use this packages, one will need to use composer require/install
 the package as usual:
 
 ```bash
