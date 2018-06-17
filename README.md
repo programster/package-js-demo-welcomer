@@ -16,7 +16,7 @@ Only the scripts in the root composer.json file are executed.
 ```json
 {
     "require": {
-        "programster/js-demo-welcomer": "0.1.1"
+        "programster/js-demo-welcomer": "0.1.*"
     },
     "scripts": {
         "post-install-cmd": [
@@ -34,7 +34,7 @@ For this package, a full example composer.json file would be as follows:
 ```json
 {
     "require": {
-        "programster/js-demo-welcomer": "0.1.1"
+        "programster/js-demo-welcomer": "0.1.*"
     },
     "scripts": {
         "post-install-cmd": [
