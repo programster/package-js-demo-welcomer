@@ -3,9 +3,15 @@ distributing Javascript packages. The [implementation demo is here](https://gith
 
 ## Installation / Usage
 In order to use these packages, one will need to use composer require/install
-the package as usual, but then make sure to manually add the following
-scripts section to  their composer.json file in order to have the package
-automatically install thesource code to the `public_html/js` folder.
+the package as usual:
+
+```bash
+composer require programster/js-demo-welcomer
+```
+
+However, yout then probably want to add the following
+scripts section to  your composer.json file in order to have the package
+automatically install the source code to the `public_html/js` folder.
 Obviously if you want the sourceelsewhere, you would just update the paths
 accordingly.
 
